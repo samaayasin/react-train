@@ -1,0 +1,71 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  max-width: 1000px;
+  margin: 22px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+}
+.container {
+width: 500px;
+margin: 30px;
+padding: 25px;
+background-color: white;
+border-radius: 10px;
+}
+
+h1 {
+text-align: center;
+color: #2e0427;
+}
+
+.product-area{
+display: grid;
+gap: 25px;
+}
+
+.product-item {
+background-color: #fff;
+padding: 25px;
+border: 2px solid #ddd;
+border-radius: 5px;
+text-align: center;
+}
+.product-item p {
+color: #2e002b;
+
+}
+
+
+.product-item h3 {
+color: #2e002b;
+}
+
+.filter {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+button{
+background-color: #531585;
+font-size: large;
+color: white;
+padding: 12px 25px;
+margin: 0 12px;
+border-radius: 7px;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+button:hover {
+background-color: #7b2a88;
+}
